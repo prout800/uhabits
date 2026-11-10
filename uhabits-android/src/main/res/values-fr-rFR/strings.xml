@@ -44,6 +44,12 @@
         <item quantity="one">Habitude désarchivée</item>
         <item quantity="other">Habitudes désarchivées</item>
     </plurals>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="perfect_days">Jours parfaits</string>
+    <plurals name="dashboard_habits_count">
+        <item quantity="one">%d habitude</item>
+        <item quantity="other">%d habitudes</item>
+    </plurals>
     <string name="overview">Vue d\'ensemble</string>
     <string name="habit_strength">Force de l\'habitude</string>
     <string name="history">Historique</string>

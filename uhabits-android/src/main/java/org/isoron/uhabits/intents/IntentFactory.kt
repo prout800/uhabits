@@ -25,6 +25,7 @@ import android.net.Uri
 import me.tatarka.inject.annotations.Inject
 import org.isoron.uhabits.R
 import org.isoron.uhabits.activities.about.AboutActivity
+import org.isoron.uhabits.activities.habits.dashboard.DashboardActivity
 import org.isoron.uhabits.activities.habits.edit.EditHabitActivity
 import org.isoron.uhabits.activities.habits.show.ShowHabitActivity
 import org.isoron.uhabits.activities.intro.IntroActivity
@@ -59,6 +60,9 @@ class IntentFactory() {
 
     fun startSettingsActivity(context: Context) =
         Intent(context, SettingsActivity::class.java)
+
+    fun startDashboardActivity(context: Context) =
+        Intent(context, DashboardActivity::class.java)
 
     fun startShowHabitActivity(context: Context, habitId: Long): Intent =
         Intent(context, ShowHabitActivity::class.java).apply {

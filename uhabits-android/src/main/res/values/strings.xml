@@ -49,6 +49,12 @@
         <item quantity="one">Habit unarchived</item>
         <item quantity="other">Habits unarchived</item>
     </plurals>
+    <string name="dashboard">Dashboard</string>
+    <string name="perfect_days">Perfect days</string>
+    <plurals name="dashboard_habits_count">
+        <item quantity="one">%d habit</item>
+        <item quantity="other">%d habits</item>
+    </plurals>
     <string name="title_activity_show_habit" translatable="false"/>
     <string name="overview">Overview</string>
     <string name="habit_strength">Habit strength</string>

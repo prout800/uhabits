@@ -143,6 +143,11 @@ class ListHabitsMenu(
                 return true
             }
 
+            R.id.actionDashboard -> {
+                behavior.onViewDashboard()
+                return true
+            }
+
             R.id.actionHideArchived -> {
                 behavior.onToggleShowArchived()
                 activity.invalidateOptionsMenu()
