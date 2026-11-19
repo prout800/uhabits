@@ -85,7 +85,7 @@ class ScoreCardPresenter(
             )
         }
 
-        private fun truncateDate(
+        fun truncateDate(
             field: TruncateField,
             date: LocalDate,
             firstWeekday: Int

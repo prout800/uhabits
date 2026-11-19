@@ -85,6 +85,12 @@
         </item>
 
         <item
+            android:id="@+id/actionDashboard"
+            android:orderInCategory="40"
+            android:title="@string/dashboard"
+            app:showAsAction="never"/>
+
+        <item
             android:id="@+id/actionToggleNightMode"
             android:checkable="true"
             android:enabled="true"

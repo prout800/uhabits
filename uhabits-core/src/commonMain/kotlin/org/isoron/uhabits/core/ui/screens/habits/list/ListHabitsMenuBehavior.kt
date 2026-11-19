@@ -52,6 +52,10 @@ class ListHabitsMenuBehavior(
         screen.showSettingsScreen()
     }
 
+    fun onViewDashboard() {
+        screen.showDashboardScreen()
+    }
+
     fun onSearchQueryChanged(query: String) {
         searchQuery = query
         updateAdapterFilter()
@@ -144,6 +148,7 @@ class ListHabitsMenuBehavior(
         fun showAboutScreen()
         fun showFAQScreen()
         fun showSettingsScreen()
+        fun showDashboardScreen()
         fun showSelectHabitTypeDialog()
     }
 

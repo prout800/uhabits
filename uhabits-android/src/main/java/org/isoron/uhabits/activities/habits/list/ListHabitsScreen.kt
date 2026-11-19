@@ -290,6 +290,11 @@ class ListHabitsScreen(
         activity.startActivityForResult(intent, REQUEST_SETTINGS)
     }
 
+    override fun showDashboardScreen() {
+        val intent = intentFactory.startDashboardActivity(activity)
+        activity.startActivity(intent)
+    }
+
     override fun showColorPicker(defaultColor: PaletteColor, callback: OnColorPickedCallback) {
         val picker = colorPickerFactory.create(defaultColor, themeSwitcher.currentTheme!!)
         picker.setListener(callback)
